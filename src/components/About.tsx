@@ -13,28 +13,31 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-lg text-slate-600">
               <p>
-                IGEA ODV opera capillarmente sul territorio per garantire prevenzione e supporto. Grazie alla collaborazione con l'ASL e medici partner, offriamo visite specialistiche (ginecologia, angiologia, diabetologia, endocrinologia) a Varallo Sesia, Borgosesia, Coggiola e Valduggia.
+                L'Associazione IGEA Prevenzione Salute Vita OdV è un attore fondamentale nel garantire il diritto alla salute e la prossimità delle cure nel territorio valsesiano. Fondata con una missione chiara legata alla prevenzione e al supporto socio-sanitario, IGEA ha costruito una rete di collaborazioni che coinvolge istituzioni pubbliche, fondazioni e realtà locali.
               </p>
               <p>
-                Crediamo nell'educazione come primo passo per la salute: per questo organizziamo conferenze divulgative nelle scuole, negli ospedali e nelle proloco, portando la cultura della prevenzione direttamente tra le persone.
+                Il nome "Igea" richiama la dea greca della salute e dell'igiene, sottolineando una vocazione che va oltre la semplice cura, abbracciando il concetto di benessere e prevenzione primaria. Operiamo per garantire che la prevenzione sanitaria raggiunga anche i borghi più isolati della valle.
               </p>
               <p>
-                Siamo al fianco dei più fragili con un servizio di trasporto sociale dedicato, gestito in collaborazione con l'Unione Montana Valsesia, per assicurare che nessuno sia lasciato solo nel percorso di cura.
+                Siamo iscritti nel Registro Unico Nazionale del Terzo Settore (RUNTS) e operiamo con la massima trasparenza, collaborando strettamente con l'ASL di Vercelli e le amministrazioni comunali per rispondere alle sfide della sanità moderna in un territorio demograficamente complesso.
               </p>
             </div>
             
-            <div className="grid grid-cols-3 gap-6 pt-6 border-t border-slate-200">
-              <div>
-                <div className="text-3xl font-black text-primary">4</div>
-                <div className="text-sm font-medium text-slate-500 uppercase tracking-wide mt-1">Centri visite</div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8 border-t border-slate-200">
+              <div className="space-y-4">
+                <h3 className="text-xl font-bold text-slate-900">Dati Identificativi</h3>
+                <ul className="space-y-2 text-sm text-slate-600">
+                  <li><span className="font-bold">Sede Legale:</span> Via A. Giordano 36, Borgosesia</li>
+                  <li><span className="font-bold">Sede Operativa:</span> Via Prof. Calderini 19, Borgosesia</li>
+                  <li><span className="font-bold">Codice Fiscale:</span> 94038650027</li>
+                  <li><span className="font-bold">Iscrizione:</span> RUNTS (Terzo Settore)</li>
+                </ul>
               </div>
-              <div>
-                <div className="text-3xl font-black text-teal-600">2</div>
-                <div className="text-sm font-medium text-slate-500 uppercase tracking-wide mt-1">Autovetture</div>
-              </div>
-              <div>
-                <div className="text-3xl font-black text-emerald-600">100%</div>
-                <div className="text-sm font-medium text-slate-500 uppercase tracking-wide mt-1">Volontariato</div>
+              <div className="space-y-4">
+                <h3 className="text-xl font-bold text-slate-900">Governance e Trasparenza</h3>
+                <p className="text-sm text-slate-600 leading-relaxed">
+                  Operiamo con un bilancio trasparente, finanziato da donazioni private, 5x1000 e contributi di fondazioni come Fondazione Valsesia e Fondazione Cariplo. Ogni risorsa è destinata all'acquisto di strumentazione e all'erogazione di servizi gratuiti per la comunità.
+                </p>
               </div>
             </div>
           </div>
@@ -51,7 +54,7 @@ export default function About() {
                 <Heart size={24} />
               </div>
               <div>
-                <div className="font-bold text-slate-900">Dal 2026</div>
+                <div className="font-bold text-slate-900">Dal 2016</div>
                 <div className="text-sm text-slate-500">Al vostro servizio</div>
               </div>
             </div>

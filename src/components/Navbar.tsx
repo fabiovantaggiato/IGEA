@@ -10,6 +10,7 @@ export default function Navbar() {
     { name: 'Home', href: '/' },
     { name: 'Chi Siamo', href: '/chi-siamo' },
     { name: 'Progetti', href: '/progetti' },
+    { name: 'Parlano di noi', href: '/parlano-di-noi' },
   ];
 
   const isActive = (path: string) => {

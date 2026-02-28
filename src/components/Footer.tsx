@@ -26,7 +26,7 @@ export default function Footer() {
               <li><Link to="/" className="hover:text-white transition-colors" aria-label="Vai alla Home Page">Home</Link></li>
               <li><Link to="/chi-siamo" className="hover:text-white transition-colors" aria-label="Scopri chi siamo">Chi Siamo</Link></li>
               <li><Link to="/progetti" className="hover:text-white transition-colors" aria-label="Vedi i nostri progetti">Progetti</Link></li>
-              <li><Link to="/servizio-trasporti" className="hover:text-white transition-colors" aria-label="Informazioni sul servizio trasporti">Servizio Trasporti</Link></li>
+              <li><Link to="/parlano-di-noi" className="hover:text-white transition-colors" aria-label="Leggi cosa dicono di noi i giornali">Parlano di noi</Link></li>
               <li><Link to="/sostienici" className="hover:text-white transition-colors" aria-label="Sostieni l'associazione">Sostienici</Link></li>
               <li><Link to="/contributi" className="hover:text-white transition-colors" aria-label="Consulta i contributi ricevuti">Contributi</Link></li>
               <li><Link to="/bilanci" className="hover:text-white transition-colors" aria-label="Consulta i bilanci dell'associazione">Bilanci</Link></li>

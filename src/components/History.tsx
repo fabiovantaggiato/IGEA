@@ -3,10 +3,34 @@ import React from 'react';
 export default function History() {
   const milestones = [
     {
-      year: "2026",
-      title: "Costituzione di IGEA ODV",
-      description: "Il 24 maggio 2026 viene ufficialmente costituita l'associazione a Borgosesia, unendo volontari dedicati alla prevenzione e all'assistenza sanitaria.",
+      year: "2016",
+      title: "Genesi e Fondazione",
+      description: "L'atto costitutivo risale al 24 maggio 2016. IGEA nasce dall'esigenza di un gruppo di volontari di creare una struttura organizzata per interfacciarsi con l'ASL di Vercelli.",
       color: "bg-teal-600"
+    },
+    {
+      year: "2018",
+      title: "Progetto 'Vediamoci meglio'",
+      description: "Lancio dello screening visivo pediatrico in collaborazione con il Soroptimist Club Valsesia per l'individuazione tempestiva di difetti visivi nei bambini.",
+      color: "bg-purple-600"
+    },
+    {
+      year: "2020",
+      title: "Resilienza COVID-19",
+      description: "Durante la pandemia, i volontari convertono le attività nel confezionamento di mascherine e cuffie per il personale sanitario, supportando l'emergenza territoriale.",
+      color: "bg-blue-600"
+    },
+    {
+      year: "2022",
+      title: "Operazione Oculistica",
+      description: "Lancio della campagna per potenziare il reparto di oculistica dell'Ospedale di Borgosesia con un microscopio ottico ad alta precisione.",
+      color: "bg-primary"
+    },
+    {
+      year: "2023",
+      title: "Sanità di Prossimità",
+      description: "Conclusione dell'Operazione Oculistica e apertura dell'ambulatorio prelievi a Valduggia e Cellio per servire la popolazione più anziana.",
+      color: "bg-emerald-600"
     }
   ];
 
@@ -16,10 +40,10 @@ export default function History() {
         
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
-            Le Nostre Radici a Borgosesia
+            La Nostra Storia in Valsesia
           </h2>
           <p className="text-lg text-slate-600">
-            Una storia che nasce dall'esperienza condivisa di volontari uniti dalla passione per il servizio sociale
+            Un percorso di crescita costante per garantire il diritto alla salute e la prossimità delle cure.
           </p>
         </div>
 
@@ -28,13 +52,13 @@ export default function History() {
             <h3 className="text-2xl font-bold text-slate-900">Dall'esperienza nasce la solidarietà</h3>
             <div className="space-y-4 text-slate-600">
               <p>
-                IGEA ODV nasce dall'unione di numerosi soci, ciascuno proveniente da esperienze che li hanno visti impegnati in diversi settori in ambito sociale. È stato questo comune operare nel sociale a favore di chi si trova nella condizione di avere più bisogno, che ha spinto i volontari di IGEA a costituirsi in associazione per operare insieme.
+                L'Associazione IGEA ha stabilito il proprio centro a Borgosesia, baricentro dei servizi per l'intera Valsesia. Con sede legale in Via A. Giordano 36 e sede operativa in Via Prof. Calderini 19, siamo un punto di riferimento per il volontariato socio-sanitario.
               </p>
               <p>
-                Il nome IGEA, ispirato alla dea greca della salute, rappresenta la nostra dedizione alla prevenzione e al benessere. La sigla ODV (Organizzazione di Volontariato) sottolinea il nostro impegno gratuito e disinteressato verso la comunità.
+                Il nostro operato si inserisce in un panorama associativo vivace, dove collaboriamo con le Unioni Montane e le amministrazioni locali per portare la prevenzione anche nei borghi più isolati.
               </p>
               <p>
-                Con sede a Borgosesia, nel cuore della Valsesia, l'associazione opera per garantire che nessuno rimanga indietro quando si tratta di salute e assistenza sociale, creando una rete di supporto solida e affidabile per tutto il territorio.
+                Siamo un partner strategico per il sistema sanitario pubblico, capace di catalizzare risorse per il potenziamento delle strutture locali, come dimostrato dall'importante investimento tecnologico per l'Ospedale di Borgosesia.
               </p>
             </div>
           </div>
@@ -46,7 +70,7 @@ export default function History() {
               referrerPolicy="no-referrer"
             />
             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl">
-              <div className="text-3xl font-black text-primary">2026</div>
+              <div className="text-3xl font-black text-primary">2016</div>
               <div className="text-sm font-medium text-slate-500 uppercase tracking-wide mt-1">Anno di fondazione</div>
             </div>
           </div>

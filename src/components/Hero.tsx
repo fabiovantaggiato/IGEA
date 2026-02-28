@@ -14,41 +14,34 @@ export default function Hero() {
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
-          <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 flex flex-col items-center text-center">
-            <div className="bg-primary/10 text-primary p-4 rounded-full mb-6">
+          <a href="#visite-prevenzione" className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 flex flex-col items-center text-center hover:shadow-md transition-all group">
+            <div className="bg-primary/10 text-primary p-4 rounded-full mb-6 group-hover:scale-110 transition-transform">
               <Heart size={32} aria-hidden="true" />
             </div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">Visite di Prevenzione</h3>
-            <p className="text-slate-600">Visite specialistiche a offerta libera con medici partner e ASL a Varallo, Borgosesia, Coggiola e Valduggia.</p>
-          </div>
-          <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 flex flex-col items-center text-center">
-            <div className="bg-teal-100 text-teal-600 p-4 rounded-full mb-6">
+            <p className="text-slate-600 text-sm">Visite specialistiche a offerta libera con medici partner e ASL.</p>
+          </a>
+          <a href="#educazione-salute" className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 flex flex-col items-center text-center hover:shadow-md transition-all group">
+            <div className="bg-teal-100 text-teal-600 p-4 rounded-full mb-6 group-hover:scale-110 transition-transform">
               <Users size={32} aria-hidden="true" />
             </div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">Educazione alla Salute</h3>
-            <p className="text-slate-600">Conferenze di divulgazione e prevenzione nelle scuole, ospedali e proloco del territorio.</p>
-          </div>
-          <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 flex flex-col items-center text-center">
-            <div className="bg-emerald-100 text-emerald-600 p-4 rounded-full mb-6">
+            <p className="text-slate-600 text-sm">Conferenze di divulgazione e prevenzione nelle scuole e sul territorio.</p>
+          </a>
+          <a href="#beni-strumentali" className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 flex flex-col items-center text-center hover:shadow-md transition-all group">
+            <div className="bg-emerald-100 text-emerald-600 p-4 rounded-full mb-6 group-hover:scale-110 transition-transform">
               <Building2 size={32} aria-hidden="true" />
             </div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">Beni Strumentali</h3>
-            <p className="text-slate-600">Acquisto di attrezzature mediche all'avanguardia su richiesta specifica dell'ASL di Vercelli.</p>
-          </div>
-          <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 flex flex-col items-center text-center">
-            <div className="bg-amber-100 text-amber-600 p-4 rounded-full mb-6">
+            <p className="text-slate-600 text-sm">Acquisto di attrezzature mediche all'avanguardia per l'ASL di Vercelli.</p>
+          </a>
+          <a href="#servizio-trasporti" className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 flex flex-col items-center text-center hover:shadow-md transition-all group">
+            <div className="bg-amber-100 text-amber-600 p-4 rounded-full mb-6 group-hover:scale-110 transition-transform">
               <Car size={32} aria-hidden="true" />
             </div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">Servizio Trasporti</h3>
-            <p className="text-slate-600 mb-4">Trasporto sociale per pazienti fragili in collaborazione con Unione Montana Valsesia.</p>
-            <Link 
-              to="/servizio-trasporti" 
-              className="text-primary font-semibold hover:underline mt-auto"
-              aria-label="Scopri di più sul servizio trasporti per pazienti fragili"
-            >
-              Scopri il servizio &rarr;
-            </Link>
-          </div>
+            <p className="text-slate-600 text-sm">Trasporto sociale per pazienti fragili in Valsesia e Valsessera.</p>
+          </a>
         </div>
       </div>
     </section>

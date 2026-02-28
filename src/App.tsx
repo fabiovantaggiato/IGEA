@@ -16,9 +16,9 @@ import Contributi from './pages/Contributi';
 import Bilanci from './pages/Bilanci';
 import Privacy from './pages/Privacy';
 import Statuto from './pages/Statuto';
-import TransportService from './pages/TransportService';
 import CookiePolicy from './pages/CookiePolicy';
 import CookieConsent from './components/CookieConsent';
+import Press from './pages/Press';
 
 export default function App() {
   return (
@@ -37,7 +37,7 @@ export default function App() {
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/cookie-policy" element={<CookiePolicy />} />
             <Route path="/statuto" element={<Statuto />} />
-            <Route path="/servizio-trasporti" element={<TransportService />} />
+            <Route path="/parlano-di-noi" element={<Press />} />
           </Routes>
         </div>
         <Footer />

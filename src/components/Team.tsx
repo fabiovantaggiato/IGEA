@@ -41,7 +41,7 @@ export default function Team() {
             Le Persone Dietro IGEA
           </h2>
           <p className="text-lg text-slate-600">
-            Un team di professionisti e volontari dedicati, uniti dalla stessa passione per il benessere della comunità.
+            Un gruppo di circa 30 volontari attivi e professionisti dedicati ogni giorno alla salute della nostra comunità.
           </p>
         </div>
 
